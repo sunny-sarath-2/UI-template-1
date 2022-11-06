@@ -1,0 +1,404 @@
+@media only screen and (min-width: 1120px) {
+}
+@media only screen and (min-width: 960px) and (max-width: 1120px) {
+  .header-sub,
+  .search-sub,
+  .choose-sub,
+  .list-sub,
+  .welcome-sub,
+  .about-sub,
+  .services-sub,
+  .nav-sub,
+  .footer-sub {
+    width: 900px;
+  }
+  .banner-sub {
+    left: 168px;
+  }
+  .about-one {
+    width: 466px;
+    height: 315px;
+  }
+  .about-one p {
+    width: 223px;
+    padding: 0px 5px;
+  }
+  .about-two {
+    margin: 20px 0 0 13px;
+    width: 207px;
+    height: 315px;
+  }
+  .about-three {
+    width: 202px;
+    padding-left: 19px;
+    padding-right: 5px;
+    height: 315px;
+  }
+  .web-design {
+    width: 292px;
+    margin-right: 12px;
+  }
+  .web-design img {
+    margin: 0px 4px;
+  }
+  .seo {
+    width: 292px;
+  }
+  .seo img {
+    margin: 0px 4px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .header-sub,
+  .search-sub,
+  .choose-sub,
+  .list-sub,
+  .welcome-sub,
+  .about-sub,
+  .services-sub,
+  .nav-sub,
+  .footer-sub {
+    width: 710px;
+  }
+  .banner-sub {
+    left: 73px;
+  }
+  .about {
+    height: 654px;
+  }
+  .about-one {
+    width: 100%;
+  }
+  .about-one p {
+    margin: 0px;
+    width: 65%;
+  }
+  .about-two {
+    width: 50%;
+    margin-left: 0px;
+    padding: 0px 20px;
+  }
+  .about-three {
+    width: 45%;
+    padding-left: 35px;
+  }
+  .web-design {
+    width: 30%;
+    margin-right: 34px;
+    padding: 0px 5px;
+  }
+  .web-design img {
+    width: 95%;
+    margin: 0px 4px 0px 4px;
+  }
+  .web-design p {
+    width: 100%;
+    padding: 15px 4px 30px 10px;
+  }
+  .web-design h3 {
+    font-size: 22px;
+  }
+  .seo {
+    width: 30%;
+    padding: 0px 5px;
+  }
+  .seo img {
+    width: 95%;
+    margin: 0px 4px 0px 6px;
+  }
+  .seo p {
+    width: 100%;
+    padding: 15px 4px 5px 15px;
+  }
+  .seo h3 {
+    font-size: 22px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .header-sub,
+  .search-sub,
+  .choose-sub,
+  .list-sub,
+  .welcome-sub,
+  .about-sub,
+  .services-sub,
+  .nav-sub,
+  .footer-sub {
+    width: 419px;
+  }
+  .banner-sub {
+    width: 250px;
+    left: 30px;
+  }
+  .header-left {
+    margin-left: 128px;
+  }
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    width: 35px;
+    height: 36px;
+    float: left;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 6px;
+    padding-left: 6px;
+  }
+  .header-right {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    text-align: center;
+    width: 100%;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .header-right ul {
+    float: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  .header-right ul li {
+    float: none;
+    padding: 8px 0px;
+    margin: 0px;
+  }
+  .header-right ul li a:hover {
+    float: none;
+    color: #cd1b01;
+    background-color: #000;
+  }
+  .header-right ul li a:focus {
+    color: #cd1b01;
+    background-color: #000;
+  }
+  .header-right ul li a {
+    padding: 0px;
+  }
+
+  #toggle:checked + .header-right {
+    display: block;
+  }
+  .banner-sub {
+    top: 220px;
+    height: 170px;
+    left: 45px;
+    width: 374px;
+  }
+  .search-sub input {
+    width: 254px;
+  }
+  .choose-sub h2 {
+    font-size: 24px;
+  }
+  .choose-sub p {
+    font-size: 14px;
+  }
+  .list-right {
+    width: 100%;
+  }
+  .list-right {
+    margin: 40px 0px;
+  }
+  .list-left {
+    width: 100%;
+  }
+  .about-one {
+    width: 100%;
+    height: 390px;
+    margin-bottom: 20px;
+  }
+  .about-one p {
+    float: left;
+    width: 100%;
+    padding: 10px 0px 0px 8px;
+  }
+  .about-two {
+    width: 100%;
+    margin: 0px;
+  }
+  .about-three {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .web-design {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .web-design img {
+    margin: 0px 6px;
+    width: 97%;
+  }
+  .seo {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .seo img {
+    margin: 0px 6px;
+    width: 97%;
+  }
+  .nav {
+    height: 100px;
+  }
+  .nav-sub-right {
+    float: left;
+  }
+  .footer {
+    height: 120px;
+  }
+  .footer-right p {
+    float: left;
+    margin: 0px;
+    padding-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .header-sub,
+  .search-sub,
+  .choose-sub,
+  .list-sub,
+  .welcome-sub,
+  .about-sub,
+  .services-sub,
+  .nav-sub,
+  .footer-sub {
+    width: 263px;
+  }
+  .banner-sub {
+    top: 211px;
+    height: 179px;
+    left: 80px;
+    width: 300px;
+  }
+  .header-left {
+    margin-left: 60px;
+  }
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    width: 35px;
+    height: 36px;
+    float: left;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 6px;
+    padding-left: 6px;
+  }
+  .header-right {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    text-align: center;
+    width: 100%;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .header-right ul {
+    float: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  .header-right ul li {
+    float: none;
+    padding: 8px 0px;
+    margin: 0px;
+  }
+  .header-right ul li a:hover {
+    float: none;
+    color: #cd1b01;
+    background-color: #000;
+  }
+  .header-right ul li a:focus {
+    color: #cd1b01;
+    background-color: #000;
+  }
+  .header-right ul li a {
+    padding: 0px;
+  }
+  .circle {
+    left: 193px;
+  }
+  #toggle:checked + .header-right {
+    display: block;
+  }
+  .search-sub input {
+    width: 142px;
+    padding: 3px 0;
+  }
+  .search-sub button {
+    padding: 5px 17px;
+    margin-left: -4px;
+  }
+  .choose-sub h2 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .list-left {
+    width: 100%;
+    margin: 20px 0px;
+  }
+  .list-right {
+    width: 100%;
+    float: left;
+    margin: 20px 0px;
+  }
+  .list-right p {
+    padding: 4px 0 0 8px;
+  }
+  .about-one {
+    width: 100%;
+    height: 485px;
+    margin: 20px 0px;
+  }
+  .about-one p {
+    margin: 0px;
+    float: left;
+  }
+  .about-two {
+    width: 100%;
+    margin: 20px 0px;
+  }
+  .about-three {
+    width: 100%;
+    margin: 20px 0px;
+  }
+  .web-design {
+    width: 100%;
+    margin: 15px 0px;
+  }
+  .web-design img {
+    width: 100%;
+    margin: 0px;
+    padding: 8px;
+  }
+  .seo {
+    width: 100%;
+    margin: 15px 0px 35px 0px;
+  }
+  .seo img {
+    width: 100%;
+    margin: 0px;
+    padding: 8px;
+  }
+  .nav {
+    height: 100px;
+  }
+  .nav-sub-right {
+    float: left;
+    margin-top: 10px;
+  }
+  .footer {
+    height: 100px;
+  }
+  .footer-right {
+    float: left;
+  }
+}
